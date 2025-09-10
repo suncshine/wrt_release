@@ -39,3 +39,10 @@ PROJECT_MIRRORS_FILE="$BUILD_DIR/scripts/projectsmirrors.json"
 if [ -f "$PROJECT_MIRRORS_FILE" ]; then
     sed -i '/.cn\//d; /tencent/d; /aliyun/d' "$PROJECT_MIRRORS_FILE"
 fi
+
+# 补充 qosmate
+cd $BUILD_DIR
+mkdir -p package/qosmate 
+git clone https://github.com/hudra0/qosmate.git package/qosmate 
+mkdir -p package/luci-app-qosmate 
+git clone https://github.com/hudra0/luci-app-qosmate.git package/luci-app-qosmate

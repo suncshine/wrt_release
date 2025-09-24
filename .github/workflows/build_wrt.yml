@@ -23,6 +23,7 @@ on:
           - zn_m2_libwrt
           # - x64_immwrt
           - cm520_lede
+          - jdcloud_luban_lede
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

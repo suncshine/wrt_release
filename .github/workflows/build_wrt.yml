@@ -11,7 +11,7 @@ on:
         default: jdcloud_ipq60xx_immwrt
         options:
           - jcg_q30_immwrt
-          # - cmcc_rax3000m_immwrt
+          - jcg_q30_immwrt-21
           # - jdcloud_ax6000_immwrt
           # - jdcloud_ipq60xx_immwrt
           # - jdcloud_ipq60xx_libwrt
